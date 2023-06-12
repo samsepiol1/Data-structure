@@ -32,6 +32,8 @@ class Calendario:
                 self.count+=1
             atual.proximo = novo_dia
 
+            
+
     def remover_dia(self, numero):
         if self.is_full():
             raise Exception("Calendário com número de dias inexistentes")

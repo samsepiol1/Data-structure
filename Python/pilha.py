@@ -1,5 +1,6 @@
 class Pilha:
     def __init__(self, max_size=None):
+        
         self.topo = None
         self.tamanho = 0
         self.max_size = max_size
